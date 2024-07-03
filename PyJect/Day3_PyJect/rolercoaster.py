@@ -12,15 +12,15 @@ if height >= 120:
     if age <= 12:
         bill = 5
         print("The Price of this class is $5.")
-    elif age <= 18:
+    elif age >= 18 and age <= 44:
         bill = 7
         print("The Price of this class is $7.")
-    elif age <= 45:
+    elif age >= 45 and age <= 59:
         bill = 12
         print("The Price of this class is $12.")
     else:
-        bill = 15
-        print("The Price of this class is $15.")
+        bill = 0
+        print("You can Proceed and take a free ride.")
 
 #Input of user: Purchasing Number of Images
     wants_photo = input("Do you want to Purchase Photos? Y or N \n ")
