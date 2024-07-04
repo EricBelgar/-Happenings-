@@ -1,0 +1,1 @@
+This folder is the composition of codes until i master python and build application/program by myself.
